@@ -28,7 +28,7 @@ string[] arr1 = {"Hello", "2", "world", ":-)"};
 			}                                     //проверяем значение массива на соответствие условию
 			Array.Resize(ref result, count); 
 			
-			return result;
+			return result;                       //возврат нового заполненного массива,как результат
 		}
 		
 		void PrintArray(string[] array)
@@ -37,7 +37,7 @@ string[] arr1 = {"Hello", "2", "world", ":-)"};
 			{
 				Console.WriteLine("Array is empty");
 			}
-			else
+			else                                  //проверяем до тех пор, 
 			{
 				Array.ForEach(array, (str) => Console.Write($"{str} "));
 				Console.WriteLine();
