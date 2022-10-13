@@ -37,7 +37,7 @@ string[] arr1 = {"Hello", "2", "world", ":-)"};
 			{
 				Console.WriteLine("Array is empty");
 			}
-			else                                  //проверяем до тех пор, 
+			else                                   
 			{
 				Array.ForEach(array, (str) => Console.Write($"{str} "));
 				Console.WriteLine();
@@ -51,7 +51,7 @@ string[] arr1 = {"Hello", "2", "world", ":-)"};
 			string[] shortArray = GetShortWordsArray(array);
 			Console.WriteLine($"Result array (words are less or equal than {MAX_WORD_LENGTH} symbols)");
 			PrintArray(shortArray);
-			Console.WriteLine();
+			Console.WriteLine();       //вывод массива
 		}
 		
 		PrintTask(arr1);
